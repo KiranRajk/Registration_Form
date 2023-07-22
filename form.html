@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Registration form</title>
+    <link rel="shortcut icon" href="./icons8-globe-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Personal Information</h1>
+    <br>
+    <form>
+        <fieldset class="upper">
+            <legend>Personal Information</legend>
+            <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            </div><br>
+            <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+            </div><br>
+
+            <div>
+            <label for="gender">Gender</label><br>
+              <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other" >Others</label>
+            </div>
+
+            <div><br>
+              <label for="photo">Photo</label>
+              <input type="file" id="photo">
+            </div>
+
+            <div><br>
+              <label for="li">Qualification</label>
+              <select name="qualification" id="li">
+                <option value ="" selected></option>
+                <option value="pg">Post Graduate</option>
+                <option value="diploma">Diploma</option>
+                <option value="+2">Plus Two</option>
+              </select>
+            </div><br>
+
+            <div>
+            <label for="phn">Phone Number</label>
+            <input type="tel" id="phn" maxlength="10">
+            </div><br>
+
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email">
+            </div><br>
+
+            <div>
+              <label for="add">Address</label>
+              <textarea name="" id="add" cols="20" rows="5"></textarea>
+
+            </div><br>
+            <div>
+              
+            </div>
+
+            <div>
+            <button class="button">SUBMIT</button>
+          </div>
+        </fieldset>
+        <hr>
+    </form>
+</body>
+</html>
